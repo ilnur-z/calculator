@@ -45,11 +45,8 @@ class UnaryOperator extends Expression {
  */
 class BracketsOperator extends UnaryOperator {
 
-    /** Операнд */
-    operand
-
     constructor(aOperand) {
-        super(bracketsPriority);
+        super(bracketsPriority, aOperand);
         this.operand = aOperand
     }
 

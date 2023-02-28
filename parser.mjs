@@ -125,6 +125,9 @@ class Parser {
 
 }
 
+export {Parser}
+
+
 console.log('============== Testing parser: ==============')
 let p = new Parser()
 
